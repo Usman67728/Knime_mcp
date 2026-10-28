@@ -1,0 +1,14 @@
+{
+  "id": "column_merger",
+  "node_name": "Column Merger",
+  "factory": "org.knime.base.node.preproc.columnmerge.ColumnMergerNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Combine Clean and Summarize Spreadsheet Data\\Column Merger (#21)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "rule_based_row_filter",
+  "node_name": "Rule-based Row Filter",
+  "factory": "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory",
+  "bundle": "org.knime.jsnippets",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\CountIf and SumIf\\Rule_based Row Filter (#13)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

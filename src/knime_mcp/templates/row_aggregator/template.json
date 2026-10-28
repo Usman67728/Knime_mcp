@@ -1,0 +1,14 @@
+{
+  "id": "row_aggregator",
+  "node_name": "Row Aggregator",
+  "factory": "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Non-standard format Spreadsheets\\Row Aggregator (#14)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

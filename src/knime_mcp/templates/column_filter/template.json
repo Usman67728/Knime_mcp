@@ -1,0 +1,70 @@
+{
+  "id": "column_filter",
+  "node_name": "Column Filter",
+  "factory": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "Keep only the listed columns (include) or drop the listed ones (exclude).",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [
+    "table"
+  ],
+  "source": "Example Workflows\\Basic Examples\\Combine Clean and Summarize Spreadsheet Data\\Column Filter (#27)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "include",
+      "path": "model.column-filter.included_names",
+      "type": "list",
+      "required": false,
+      "description": "Columns to keep (mutually exclusive with exclude).",
+      "clear_on_set": [
+        "model.column-filter.excluded_names"
+      ]
+    },
+    {
+      "name": "exclude",
+      "path": "model.column-filter.excluded_names",
+      "type": "list",
+      "required": false,
+      "description": "Columns to drop (mutually exclusive with include).",
+      "clear_on_set": [
+        "model.column-filter.included_names"
+      ]
+    },
+    {
+      "name": "pattern",
+      "path": "model.column-filter.name_pattern.pattern",
+      "type": "string",
+      "required": false,
+      "description": "Wildcard/regex pattern (pattern mode)."
+    },
+    {
+      "name": "pattern_type",
+      "path": "model.column-filter.name_pattern.type",
+      "type": "string",
+      "required": false,
+      "default": "Wildcard",
+      "description": "Wildcard | Regex."
+    },
+    {
+      "name": "pattern_case_sensitive",
+      "path": "model.column-filter.name_pattern.caseSensitive",
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "Case-sensitive pattern matching."
+    },
+    {
+      "name": "pattern_exclude_matching",
+      "path": "model.column-filter.name_pattern.excludeMatching",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "True = drop matching columns instead of keeping them."
+    }
+  ]
+}

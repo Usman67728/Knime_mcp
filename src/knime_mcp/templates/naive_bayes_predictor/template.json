@@ -1,0 +1,19 @@
+{
+  "id": "naive_bayes_predictor",
+  "node_name": "Naive Bayes Predictor",
+  "factory": "org.knime.base.node.mine.bayes.naivebayes.predictor4.NaiveBayesPredictorNodeFactory3",
+  "bundle": "org.knime.base",
+  "description": "Naive Bayes Predictor (harvested from ida_a3_14638744)",
+  "inputs": [
+    "model",
+    "table"
+  ],
+  "outputs": [
+    "table"
+  ],
+  "source": "ida_a3_14638744\\Naive Bayes Predictor (#36)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

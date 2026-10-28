@@ -1,0 +1,14 @@
+{
+  "id": "numeric_scorer",
+  "node_name": "Numeric Scorer",
+  "factory": "org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\Numeric Scorer (#25)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

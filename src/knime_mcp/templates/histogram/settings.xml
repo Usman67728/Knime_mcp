@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="generateImage" type="xboolean" value="true"/>
+        <entry key="imageFormat" type="xstring" value="SVG"/>
+        <entry key="width" type="xint" value="800"/>
+        <entry key="height" type="xint" value="600"/>
+        <entry key="dimensionV3" type="xstring" value="DISTANCE"/>
+        <entry key="binningType" type="xstring" value="EQUAL_WIDTH"/>
+        <entry key="nBins" type="xint" value="20"/>
+        <entry key="hasIntegerCutoff" type="xboolean" value="true"/>
+        <entry key="hasFixedLowerBound" type="xboolean" value="true"/>
+        <entry key="lowerBound" type="xdouble" value="0.0"/>
+        <entry key="hasFixedUpperBound" type="xboolean" value="true"/>
+        <entry key="upperBound" type="xdouble" value="0.0"/>
+        <entry key="customBinCutoff" type="xstring" value=""/>
+        <entry key="specialValueHandling" type="xstring" value="IGNORE"/>
+    </config>
+    <config key="variables"/>
+    <config key="view">
+        <entry key="frequencyAxisType" type="xstring" value="FREQUENCY"/>
+        <entry key="title" type="xstring" value="Histogram"/>
+        <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
+        <entry key="manualMax" type="xdouble" value="100.0"/>
+        <entry key="customDimensionAxisLabelV2" type="xstring" isnull="true" value=""/>
+        <entry key="customDimensionAxisLabelV2_is_present" type="xboolean" value="true"/>
+        <entry key="customFrequencyAxisLabelV2" type="xstring" value=""/>
+        <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="true"/>
+        <entry key="showNumericLabels" type="xboolean" value="true"/>
+        <entry key="allowImageDownload" type="xboolean" value="true"/>
+        <entry key="showTooltip" type="xboolean" value="true"/>
+        <entry key="selectionMode" type="xstring" value="EDIT"/>
+        <entry key="enableAnimation" type="xboolean" value="true"/>
+    </config>
+    <config key="view_variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.views.node.histogram.HistogramNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Histogram"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.views"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.12.0.v202606171319"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.12.0.v202606171319"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input Table"/>
+        <config key="Output Image"/>
+    </config>
+    <entry key="name" type="xstring" value="Histogram"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="true"/>
+    <config key="ports"/>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_0"/>
+            </config>
+            <config key="object_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_1"/>
+            </config>
+            <config key="object_2">
+                <entry key="index" type="xint" value="2"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_2"/>
+            </config>
+            <config key="object_3">
+                <entry key="index" type="xint" value="3"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_3"/>
+            </config>
+            <config key="object_4">
+                <entry key="index" type="xint" value="4"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_4"/>
+            </config>
+            <config key="object_5">
+                <entry key="index" type="xint" value="5"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_5"/>
+            </config>
+            <config key="object_6">
+                <entry key="index" type="xint" value="6"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_6"/>
+            </config>
+            <config key="object_7">
+                <entry key="index" type="xint" value="7"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_7"/>
+            </config>
+            <config key="object_8">
+                <entry key="index" type="xint" value="8"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_8"/>
+            </config>
+            <config key="object_9">
+                <entry key="index" type="xint" value="9"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_9"/>
+            </config>
+            <config key="object_10">
+                <entry key="index" type="xint" value="10"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_10"/>
+            </config>
+            <config key="object_11">
+                <entry key="index" type="xint" value="11"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_11"/>
+            </config>
+            <config key="object_12">
+                <entry key="index" type="xint" value="12"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_12"/>
+            </config>
+            <config key="object_13">
+                <entry key="index" type="xint" value="13"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_13"/>
+            </config>
+            <config key="object_14">
+                <entry key="index" type="xint" value="14"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_14"/>
+            </config>
+            <config key="object_15">
+                <entry key="index" type="xint" value="15"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_15"/>
+            </config>
+            <config key="object_16">
+                <entry key="index" type="xint" value="16"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_16"/>
+            </config>
+            <config key="object_17">
+                <entry key="index" type="xint" value="17"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_17"/>
+            </config>
+            <config key="object_18">
+                <entry key="index" type="xint" value="18"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_18"/>
+            </config>
+            <config key="object_19">
+                <entry key="index" type="xint" value="19"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_19"/>
+            </config>
+            <config key="object_20">
+                <entry key="index" type="xint" value="20"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_20"/>
+            </config>
+            <config key="object_21">
+                <entry key="index" type="xint" value="21"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_21"/>
+            </config>
+            <config key="object_22">
+                <entry key="index" type="xint" value="22"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_22"/>
+            </config>
+            <config key="object_23">
+                <entry key="index" type="xint" value="23"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_23"/>
+            </config>
+            <config key="object_24">
+                <entry key="index" type="xint" value="24"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_24"/>
+            </config>
+            <config key="object_25">
+                <entry key="index" type="xint" value="25"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_25"/>
+            </config>
+            <config key="object_26">
+                <entry key="index" type="xint" value="26"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_26"/>
+            </config>
+            <config key="object_27">
+                <entry key="index" type="xint" value="27"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_27"/>
+            </config>
+            <config key="object_28">
+                <entry key="index" type="xint" value="28"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_28"/>
+            </config>
+            <config key="object_29">
+                <entry key="index" type="xint" value="29"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_29"/>
+            </config>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="662edfd8-5491-4ca2-9ede-eb3bf9699f39"/>
+    </config>
+</config>

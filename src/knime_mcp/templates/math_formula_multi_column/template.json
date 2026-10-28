@@ -1,0 +1,14 @@
+{
+  "id": "math_formula_multi_column",
+  "node_name": "Math Formula (Multi Column)",
+  "factory": "org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory",
+  "bundle": "org.knime.ext.jep",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\Math Formula _Multi Column_ (#27)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

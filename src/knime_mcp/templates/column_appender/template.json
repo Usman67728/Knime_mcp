@@ -1,0 +1,14 @@
+{
+  "id": "column_appender",
+  "node_name": "Column Appender",
+  "factory": "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Non-standard format Spreadsheets\\Column Appender (#15)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

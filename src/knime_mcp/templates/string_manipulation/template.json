@@ -1,0 +1,14 @@
+{
+  "id": "string_manipulation",
+  "node_name": "String Manipulation",
+  "factory": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory",
+  "bundle": "org.knime.jsnippets",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Data Blending\\String Manipulation (#240)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

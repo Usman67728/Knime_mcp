@@ -1,0 +1,14 @@
+{
+  "id": "loop_end",
+  "node_name": "Loop End",
+  "factory": "org.knime.base.node.meta.looper.LoopEndNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Customer Segmentation\\Basic Customer Segmentation Use Case\\Loop End (#107)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "histogram",
+  "node_name": "Histogram",
+  "factory": "org.knime.base.views.node.histogram.HistogramNodeFactory",
+  "bundle": "org.knime.base.views",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\A2 (#20)\\Histogram (#13)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

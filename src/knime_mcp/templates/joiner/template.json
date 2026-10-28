@@ -1,0 +1,14 @@
+{
+  "id": "joiner",
+  "node_name": "Joiner",
+  "factory": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\A3 (#41)\\Joiner (#32)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

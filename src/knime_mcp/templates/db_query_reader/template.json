@@ -1,0 +1,14 @@
+{
+  "id": "db_query_reader",
+  "node_name": "DB Query Reader",
+  "factory": "org.knime.database.node.io.reader.query.DBQueryReaderNodeFactory",
+  "bundle": "org.knime.database.nodes",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Data Blending\\DB Query Reader (#261)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "table_view",
+  "node_name": "Table View",
+  "factory": "org.knime.base.views.node.tableview.TableViewNodeFactory",
+  "bundle": "org.knime.base.views",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Retail\\Using Association Rules for Market Basket Analysis\\Table View (#135)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

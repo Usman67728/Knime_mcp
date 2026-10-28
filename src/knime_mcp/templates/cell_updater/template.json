@@ -1,0 +1,14 @@
+{
+  "id": "cell_updater",
+  "node_name": "Cell Updater",
+  "factory": "org.knime.base.node.preproc.table.cellupdater.CellUpdaterNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Non-standard format Spreadsheets\\Cell Updater (#11)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

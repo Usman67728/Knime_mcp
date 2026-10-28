@@ -1,0 +1,14 @@
+{
+  "id": "double_configuration",
+  "node_name": "Double Configuration",
+  "factory": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeFactory",
+  "bundle": "org.knime.js.quickforms",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Retail\\Finding Association Rules for Market Basket Analysis\\Double Configuration (#124)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

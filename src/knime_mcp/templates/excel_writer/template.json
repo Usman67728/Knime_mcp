@@ -1,0 +1,75 @@
+{
+  "id": "excel_writer",
+  "node_name": "Excel Writer",
+  "factory": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory",
+  "bundle": "org.knime.ext.poi3",
+  "description": "Write the input table to an Excel (.xlsx) file.",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [],
+  "source": "Hamdan\\Excel Writer (#52)\\settings.xml",
+  "path_params": [
+    "path"
+  ],
+  "post_set": [
+    {
+      "path": "model.file_selection.path.file_system_type",
+      "value": "LOCAL"
+    },
+    {
+      "path": "model.file_selection.path.location_present",
+      "value": true
+    }
+  ],
+  "clear": [],
+  "params": [
+    {
+      "name": "path",
+      "path": "model.file_selection.path.path",
+      "type": "string",
+      "required": true,
+      "description": "Destination .xlsx path (absolute or workflow-relative)."
+    },
+    {
+      "name": "sheet",
+      "path": "model.sheet_names.0",
+      "type": "string",
+      "required": false,
+      "default": "Sheet1",
+      "description": "Worksheet name."
+    },
+    {
+      "name": "if_exists",
+      "path": "model.file_selection.if_path_exists",
+      "type": "string",
+      "required": false,
+      "default": "overwrite",
+      "description": "overwrite | append -- what to do if the file exists."
+    },
+    {
+      "name": "if_sheet_exists",
+      "path": "model.if_sheet_exists",
+      "type": "string",
+      "required": false,
+      "default": "OVERWRITE",
+      "description": "OVERWRITE | FAIL | APPEND -- if the sheet exists."
+    },
+    {
+      "name": "write_column_header",
+      "path": "model.write_column_header",
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "Write the column names as the first row."
+    },
+    {
+      "name": "write_row_key",
+      "path": "model.write_row_key",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Also write KNIME's RowID column."
+    }
+  ]
+}

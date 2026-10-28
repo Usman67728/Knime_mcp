@@ -1,0 +1,14 @@
+{
+  "id": "topic_extractor_parallel_lda",
+  "node_name": "Topic Extractor (Parallel LDA)",
+  "factory": "org.knime.ext.textprocessing.nodes.mining.topic.ParallelTopicExtractorNodeFactory",
+  "bundle": "org.knime.ext.textprocessing",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Social Media\\Topic Detection Based on Movie Reviews\\Topic Extractor _Parallel LDA_ (#15)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

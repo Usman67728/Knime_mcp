@@ -1,0 +1,14 @@
+{
+  "id": "math_formula",
+  "node_name": "Math Formula",
+  "factory": "org.knime.ext.jep.JEPNodeFactory",
+  "bundle": "org.knime.ext.jep",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Retail\\Finding Association Rules for Market Basket Analysis\\Find Recomme (#111)\\Math Formula (#113)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

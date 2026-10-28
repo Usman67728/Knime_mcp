@@ -1,0 +1,14 @@
+{
+  "id": "rule_based_row_splitter",
+  "node_name": "Rule-based Row Splitter",
+  "factory": "org.knime.base.node.rules.engine.RuleEngineSplitterNodeFactory",
+  "bundle": "org.knime.jsnippets",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\A3 (#41)\\Rule_based Row Splitter (#39)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

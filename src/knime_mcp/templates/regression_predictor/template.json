@@ -1,0 +1,14 @@
+{
+  "id": "regression_predictor",
+  "node_name": "Regression Predictor",
+  "factory": "org.knime.base.node.mine.regression.predict3.RegressionPredictorNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\Regression Predictor (#24)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "column_renamer",
+  "node_name": "Column Renamer",
+  "factory": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "Rename columns.",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [
+    "table"
+  ],
+  "source": "KNIME_project25\\Column Renamer (#56)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "renames",
+      "path": "model.renamings",
+      "type": "list",
+      "required": false,
+      "description": "List of {\"oldName\": ..., \"newName\": ...} objects."
+    }
+  ]
+}

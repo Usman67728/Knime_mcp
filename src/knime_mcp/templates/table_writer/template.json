@@ -1,0 +1,35 @@
+{
+  "id": "table_writer",
+  "node_name": "Table Writer",
+  "factory": "org.knime.base.node.io.filehandling.table.writer.TableWriterNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "Write the input table to a KNIME .table file.",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [],
+  "source": "Example Workflows\\Retail\\Finding Association Rules for Market Basket Analysis\\Table Writer (#127)\\settings.xml",
+  "path_params": [
+    "path"
+  ],
+  "post_set": [
+    {
+      "path": "model.file_selection.path.file_system_type",
+      "value": "LOCAL"
+    },
+    {
+      "path": "model.file_selection.path.location_present",
+      "value": true
+    }
+  ],
+  "clear": [],
+  "params": [
+    {
+      "name": "path",
+      "path": "model.file_selection.path.path",
+      "type": "string",
+      "required": true,
+      "description": "Destination .table path (absolute or workflow-relative)."
+    }
+  ]
+}

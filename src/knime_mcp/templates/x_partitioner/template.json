@@ -1,0 +1,14 @@
+{
+  "id": "x_partitioner",
+  "node_name": "X-Partitioner",
+  "factory": "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Credit Scoring\\Building a Credit Scoring Model\\Train and Cr (#44)\\X_Partitioner (#2)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

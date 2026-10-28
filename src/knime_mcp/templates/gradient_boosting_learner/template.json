@@ -1,0 +1,27 @@
+{
+  "id": "gradient_boosting_learner",
+  "node_name": "Gradient Boosted Trees Learner",
+  "factory": "org.knime.base.node.mine.treeensemble2.node.gradientboosting.learner.classification.GradientBoostingClassificationLearnerNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "Gradient Boosted Trees Learner (harvested from ida_a3_14638744)",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [
+    "model"
+  ],
+  "source": "ida_a3_14638744\\Gradient Boosted Trees Learner (#37)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "target",
+      "path": "model.targetColumn",
+      "type": "string",
+      "required": true,
+      "default": "Arrival_Delay",
+      "description": "Class column to predict (targetColumn)."
+    }
+  ]
+}

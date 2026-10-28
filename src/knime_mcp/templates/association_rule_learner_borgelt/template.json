@@ -1,0 +1,14 @@
+{
+  "id": "association_rule_learner_borgelt",
+  "node_name": "Association Rule Learner (Borgelt)",
+  "factory": "org.knime.ext.itemset.nodes.learner.AssociationRuleLearnerNodeFactory",
+  "bundle": "org.knime.ext.itemset",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Retail\\Finding Association Rules for Market Basket Analysis\\Association Rule Learner _Borgelt_ (#110)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

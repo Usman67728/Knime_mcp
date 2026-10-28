@@ -1,0 +1,14 @@
+{
+  "id": "string_to_number",
+  "node_name": "String to Number",
+  "factory": "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\String to Number (#26)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

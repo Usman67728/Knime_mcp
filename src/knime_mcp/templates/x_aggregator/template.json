@@ -1,0 +1,14 @@
+{
+  "id": "x_aggregator",
+  "node_name": "X-Aggregator",
+  "factory": "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Credit Scoring\\Building a Credit Scoring Model\\Train and Cr (#42)\\X_Aggregator (#7)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

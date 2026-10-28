@@ -1,0 +1,14 @@
+{
+  "id": "binner",
+  "node_name": "Binner",
+  "factory": "org.knime.base.node.preproc.binner2.BinnerNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\Binner (#42)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

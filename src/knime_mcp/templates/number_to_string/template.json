@@ -1,0 +1,14 @@
+{
+  "id": "number_to_string",
+  "node_name": "Number to String",
+  "factory": "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Social Media\\Topic Detection Based on Movie Reviews\\Number To String (#291)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

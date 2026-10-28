@@ -1,0 +1,14 @@
+{
+  "id": "one_to_many",
+  "node_name": "One to Many",
+  "factory": "org.knime.base.node.preproc.columntrans2.One2ManyCol2NodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\One to Many (#45)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

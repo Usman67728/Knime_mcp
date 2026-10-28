@@ -1,0 +1,14 @@
+{
+  "id": "missing_value",
+  "node_name": "Missing Value",
+  "factory": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\Missing Value (#3)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

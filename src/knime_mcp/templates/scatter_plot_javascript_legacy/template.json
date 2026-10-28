@@ -1,0 +1,14 @@
+{
+  "id": "scatter_plot_javascript_legacy",
+  "node_name": "Scatter Plot (JavaScript) (legacy)",
+  "factory": "org.knime.js.base.node.viz.plotter.scatterSelectionAppender.ScatterPlotNodeFactory",
+  "bundle": "org.knime.js.views",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\A3 (#41)\\Scatter Plot _JavaScript_ _legacy_ (#41)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "decision_tree_predictor",
+  "node_name": "Decision Tree Predictor",
+  "factory": "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Building a Simple Classifier\\Decision Tree Predictor (#4)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

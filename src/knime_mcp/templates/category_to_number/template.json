@@ -1,0 +1,14 @@
+{
+  "id": "category_to_number",
+  "node_name": "Category to Number",
+  "factory": "org.knime.base.node.preproc.colconvert.categorytonumber2.CategoryToNumberNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Credit Scoring\\Building a Credit Scoring Model\\Category To Number (#58)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

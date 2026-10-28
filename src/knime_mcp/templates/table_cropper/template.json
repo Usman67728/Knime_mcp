@@ -1,0 +1,14 @@
+{
+  "id": "table_cropper",
+  "node_name": "Table Cropper",
+  "factory": "org.knime.base.node.preproc.table.cropper.TableCropperNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Non-standard format Spreadsheets\\Table Cropper (#20)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

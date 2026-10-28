@@ -1,0 +1,14 @@
+{
+  "id": "pie_donut_chart_javascript_legacy",
+  "node_name": "Pie/Donut Chart (JavaScript) (legacy)",
+  "factory": "org.knime.dynamic.js.v30.DynamicJSNodeFactory",
+  "bundle": "org.knime.dynamic.js.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\A2 (#20)\\Pie_Donut Chart _JavaScript_ _legacy_ (#17)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

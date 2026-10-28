@@ -1,0 +1,14 @@
+{
+  "id": "table_splitter",
+  "node_name": "Table Splitter",
+  "factory": "org.knime.base.node.preproc.table.splitter.TableSplitterNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Non-standard format Spreadsheets\\Table Splitter (#2)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

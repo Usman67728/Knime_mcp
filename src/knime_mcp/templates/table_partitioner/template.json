@@ -1,0 +1,14 @@
+{
+  "id": "table_partitioner",
+  "node_name": "Table Partitioner",
+  "factory": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\Table Partitioner (#22)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

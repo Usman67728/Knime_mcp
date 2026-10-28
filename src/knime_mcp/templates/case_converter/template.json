@@ -1,0 +1,14 @@
+{
+  "id": "case_converter",
+  "node_name": "Case Converter",
+  "factory": "org.knime.ext.textprocessing.nodes.preprocessing.caseconverter.CaseConverterNodeFactory2",
+  "bundle": "org.knime.ext.textprocessing",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Social Media\\Topic Detection Based on Movie Reviews\\Document Cre (#287)\\Case converter (#33)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

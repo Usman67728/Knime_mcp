@@ -1,0 +1,25 @@
+{
+  "id": "rprop_mlp_learner",
+  "node_name": "RProp MLP Learner",
+  "factory": "org.knime.base.node.mine.neural.rprop.RPropNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Credit Scoring\\Building a Credit Scoring Model\\Train and Cr (#43)\\Apply the mo (#36)\\RProp MLP Learner (#35)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "target",
+      "path": "model.classcol",
+      "type": "string",
+      "required": true,
+      "default": "Arrival_Delay",
+      "description": "Class column to predict (classcol)."
+    }
+  ]
+}

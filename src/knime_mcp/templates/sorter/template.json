@@ -1,0 +1,56 @@
+{
+  "id": "sorter",
+  "node_name": "Sorter",
+  "factory": "org.knime.base.node.preproc.sorter.SorterNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "Sort rows by one or more columns.",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [
+    "table"
+  ],
+  "source": "Example Workflows\\Customer Intelligence\\Credit Scoring\\Building a Credit Scoring Model\\Sorter (#52)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "columns",
+      "path": "model.incllist",
+      "type": "list",
+      "required": true,
+      "description": "Columns to sort by, in order."
+    },
+    {
+      "name": "descending",
+      "path": "model.sortOrder",
+      "type": "list",
+      "required": false,
+      "description": "true/false per column (false = ascending). Auto-fills with false when omitted; must match columns length.",
+      "sync": [
+        "columns",
+        false
+      ]
+    },
+    {
+      "name": "alphanumeric",
+      "path": "model.alphaNumStringComp",
+      "type": "list",
+      "required": false,
+      "description": "true = alphanumeric (natural) string order, per column. Auto-fills with false when omitted.",
+      "sync": [
+        "columns",
+        false
+      ]
+    },
+    {
+      "name": "missing_to_end",
+      "path": "model.missingToEnd",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Sort missing values to the end."
+    }
+  ]
+}

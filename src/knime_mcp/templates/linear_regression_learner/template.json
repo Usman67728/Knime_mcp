@@ -1,0 +1,14 @@
+{
+  "id": "linear_regression_learner",
+  "node_name": "Linear Regression Learner",
+  "factory": "org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\Linear Regression Learner (#23)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

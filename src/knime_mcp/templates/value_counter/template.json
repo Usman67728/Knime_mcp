@@ -1,0 +1,14 @@
+{
+  "id": "value_counter",
+  "node_name": "Value Counter",
+  "factory": "org.knime.base.node.preproc.valcount.ValueCounterNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\A2 (#20)\\Value Counter (#7)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

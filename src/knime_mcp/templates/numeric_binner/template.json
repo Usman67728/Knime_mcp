@@ -1,0 +1,14 @@
+{
+  "id": "numeric_binner",
+  "node_name": "Numeric Binner",
+  "factory": "org.knime.base.node.preproc.binner.BinnerNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\Numeric Binner (#44)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

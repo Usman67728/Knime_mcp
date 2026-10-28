@@ -1,0 +1,25 @@
+{
+  "id": "svm_learner",
+  "node_name": "SVM Learner",
+  "factory": "org.knime.base.node.mine.svm.learner.SVMLearnerNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Credit Scoring\\Building a Credit Scoring Model\\Train and Cr (#44)\\Apply the mo (#38)\\SVM Learner (#33)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "target",
+      "path": "model.classcol",
+      "type": "string",
+      "required": true,
+      "default": "Arrival_Delay",
+      "description": "Class column to predict (classcol)."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "groupby",
+  "node_name": "GroupBy",
+  "factory": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "Group rows and aggregate columns (GroupBy).",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [
+    "table"
+  ],
+  "source": "KNIME_project\\GroupBy (#48)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "group_by",
+      "path": "model.grouByColumns.InclList",
+      "type": "list",
+      "required": false,
+      "description": "Columns to group by.",
+      "clear_on_set": [
+        "model.grouByColumns.ExclList"
+      ]
+    },
+    {
+      "name": "group_by_exclude",
+      "path": "model.grouByColumns.ExclList",
+      "type": "list",
+      "required": false,
+      "description": "Alternative: group by every column EXCEPT these.",
+      "clear_on_set": [
+        "model.grouByColumns.InclList"
+      ]
+    },
+    {
+      "name": "aggregations",
+      "path": "model.aggregationColumn",
+      "type": "records",
+      "required": false,
+      "description": "List of {column, method, cell_class, include_missing} objects, one aggregation per entry. method examples: Count_V2.5.0, Sum_V2.5.2, Mean_V2.5.2, Min, Max, StandardDeviation_V2.5.2, First, Last, Distinct. cell_class like org.knime.core.data.def.DoubleCell.",
+      "records_map": {
+        "column": "columnNames",
+        "method": "aggregationMethod",
+        "cell_class": {
+          "array": "columnTypes",
+          "wrap": "cell_class"
+        },
+        "include_missing": "inclMissingVals"
+      }
+    }
+  ]
+}

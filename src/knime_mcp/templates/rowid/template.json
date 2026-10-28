@@ -1,0 +1,14 @@
+{
+  "id": "rowid",
+  "node_name": "RowID",
+  "factory": "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Credit Scoring\\Building a Credit Scoring Model\\Train and Cr (#42)\\Creation of (#36)\\RowID (#293)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

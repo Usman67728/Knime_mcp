@@ -1,0 +1,28 @@
+{
+  "id": "knn",
+  "node_name": "K Nearest Neighbor",
+  "factory": "org.knime.base.node.mine.knn.KnnNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "K Nearest Neighbor (harvested from ida_a3_14638744)",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [
+    "table",
+    "model?"
+  ],
+  "source": "ida_a3_14638744\\K Nearest Neighbor (#32)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "target",
+      "path": "model.classColumn",
+      "type": "string",
+      "required": true,
+      "default": "Arrival_Delay",
+      "description": "Class column to predict (classColumn)."
+    }
+  ]
+}

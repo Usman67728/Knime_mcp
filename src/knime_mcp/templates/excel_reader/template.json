@@ -1,0 +1,14 @@
+{
+  "id": "excel_reader",
+  "node_name": "Excel Reader",
+  "factory": "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory",
+  "bundle": "org.knime.ext.poi3",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Combine Clean and Summarize Spreadsheet Data\\Excel Reader (#6)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

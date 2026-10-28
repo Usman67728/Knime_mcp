@@ -1,0 +1,27 @@
+{
+  "id": "naive_bayes_learner",
+  "node_name": "Naive Bayes Learner",
+  "factory": "org.knime.base.node.mine.bayes.naivebayes.learner3.NaiveBayesLearnerNodeFactory4",
+  "bundle": "org.knime.base",
+  "description": "Naive Bayes Learner (harvested from ida_a3_14638744)",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [
+    "model"
+  ],
+  "source": "ida_a3_14638744\\Naive Bayes Learner (#35)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "target",
+      "path": "model.classifyColumn",
+      "type": "string",
+      "required": true,
+      "default": "Arrival_Delay",
+      "description": "Class column to predict (classifyColumn)."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cluster_assigner",
+  "node_name": "Cluster Assigner",
+  "factory": "org.knime.base.node.mine.cluster.assign.ClusterAssignerNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\Cluster Assigner (#20)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

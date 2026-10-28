@@ -1,0 +1,14 @@
+{
+  "id": "number_rounder",
+  "node_name": "Number Rounder",
+  "factory": "org.knime.base.node.preproc.rounddouble.RoundDoubleNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Retail\\Using Association Rules for Market Basket Analysis\\Refine (#133)\\Round Double (#129)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

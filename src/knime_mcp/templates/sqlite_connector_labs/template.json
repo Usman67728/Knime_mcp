@@ -1,0 +1,14 @@
+{
+  "id": "sqlite_connector_labs",
+  "node_name": "SQLite Connector (Labs)",
+  "factory": "org.knime.database.extension.sqlite.node.connector.SQLiteDBConnectorNodeFactory2",
+  "bundle": "org.knime.database.extensions",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Data Blending\\SQLite Connector (#278)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

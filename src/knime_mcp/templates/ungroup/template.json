@@ -1,0 +1,14 @@
+{
+  "id": "ungroup",
+  "node_name": "Ungroup",
+  "factory": "org.knime.base.node.preproc.ungroup.UngroupNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Retail\\Using Association Rules for Market Basket Analysis\\Top 2 Rules (#132)\\Ungroup (#118)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

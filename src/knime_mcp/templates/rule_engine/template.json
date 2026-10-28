@@ -1,0 +1,14 @@
+{
+  "id": "rule_engine",
+  "node_name": "Rule Engine",
+  "factory": "org.knime.base.node.rules.engine.RuleEngineNodeFactory",
+  "bundle": "org.knime.jsnippets",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Credit Scoring\\Building a Credit Scoring Model\\Train and Cr (#44)\\Apply the mo (#38)\\Rule Engine (#35)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

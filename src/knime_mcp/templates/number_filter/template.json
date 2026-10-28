@@ -1,0 +1,14 @@
+{
+  "id": "number_filter",
+  "node_name": "Number Filter",
+  "factory": "org.knime.ext.textprocessing.nodes.preprocessing.numberfilter.NumberFilterNodeFactory2",
+  "bundle": "org.knime.ext.textprocessing",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Social Media\\Topic Detection Based on Movie Reviews\\Document Cre (#287)\\Number Filter (#30)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

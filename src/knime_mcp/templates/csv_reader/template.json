@@ -1,0 +1,82 @@
+{
+  "id": "csv_reader",
+  "node_name": "CSV Reader",
+  "factory": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "Read a delimited text file (CSV/TSV) from disk.",
+  "inputs": [],
+  "outputs": [
+    "table"
+  ],
+  "source": "KNIME_project2\\CSV Reader (#1)\\settings.xml",
+  "path_params": [
+    "path"
+  ],
+  "post_set": [
+    {
+      "path": "model.csvReaderParameters.multiFileSelectionParams.source.path.file_system_type",
+      "value": "LOCAL"
+    },
+    {
+      "path": "model.csvReaderParameters.multiFileSelectionParams.source.path.location_present",
+      "value": true
+    },
+    {
+      "path": "model.csvReaderParameters.firstRowContainsColumnNamesParams.firstRowContainsColumnNames",
+      "value": true
+    },
+    {
+      "path": "model.csvReaderParameters.firstColumnContainsRowIdsParams.firstColumnContainsRowIds",
+      "value": false
+    },
+    {
+      "path": "model.csvReaderParameters.ifSchemaChangesParams.ignoreSchemaChange",
+      "value": true
+    },
+    {
+      "path": "model.transformationParameters.enforceTypes",
+      "value": false
+    },
+    {
+      "path": "model.configId_Internals.multi_table_read.settings.has_column_header",
+      "value": true
+    },
+    {
+      "path": "model.configId_Internals.multi_table_read.settings.has_row_id",
+      "value": false
+    }
+  ],
+  "clear": [],
+  "rebuild_spec": {
+    "spec_path": "model.transformationParameters.specs.0.spec",
+    "path_param": "path",
+    "delimiter_param": "delimiter",
+    "header_param": "first_row_header",
+    "has_type": true
+  },
+  "params": [
+    {
+      "name": "path",
+      "path": "model.csvReaderParameters.multiFileSelectionParams.source.path.path",
+      "type": "string",
+      "required": true,
+      "description": "Absolute or workflow-relative path of the CSV file."
+    },
+    {
+      "name": "first_row_header",
+      "path": "model.csvReaderParameters.firstRowContainsColumnNamesParams.firstRowContainsColumnNames",
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "First row contains column names."
+    },
+    {
+      "name": "delimiter",
+      "path": "model.csvReaderParameters.csvFormatParams.columnDelimiter",
+      "type": "string",
+      "required": false,
+      "default": ",",
+      "description": "Column delimiter (e.g. ',', ';', tab)."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cell_extractor",
+  "node_name": "Cell Extractor",
+  "factory": "org.knime.base.node.preproc.table.cellextractor.CellExtractorNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Non-standard format Spreadsheets\\Cell Extractor (#4)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

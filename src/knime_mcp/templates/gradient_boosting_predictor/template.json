@@ -1,0 +1,19 @@
+{
+  "id": "gradient_boosting_predictor",
+  "node_name": "Gradient Boosted Trees Predictor",
+  "factory": "org.knime.base.node.mine.treeensemble2.node.gradientboosting.predictor.classification.GradientBoostingClassificationPredictorNodeFactory3",
+  "bundle": "org.knime.base",
+  "description": "Gradient Boosted Trees Predictor (harvested from ida_a3_14638744)",
+  "inputs": [
+    "model",
+    "table"
+  ],
+  "outputs": [
+    "table"
+  ],
+  "source": "ida_a3_14638744\\Gradient Boosted Trees Predictor (#38)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

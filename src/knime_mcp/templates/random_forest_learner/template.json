@@ -1,0 +1,27 @@
+{
+  "id": "random_forest_learner",
+  "node_name": "Random Forest Learner",
+  "factory": "org.knime.base.node.mine.treeensemble2.node.randomforest.learner.classification.RandomForestClassificationLearnerNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "Random Forest Learner (harvested from ida_a3_14638744)",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [
+    "model"
+  ],
+  "source": "ida_a3_14638744\\Random Forest Learner (#33)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "target",
+      "path": "model.targetColumn",
+      "type": "string",
+      "required": true,
+      "default": "Arrival_Delay",
+      "description": "Class column to predict (targetColumn)."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "rank_correlation",
+  "node_name": "Rank Correlation",
+  "factory": "org.knime.base.node.stats.correlation.rank2.RankCorrelationCompute2NodeFactory",
+  "bundle": "org.knime.stats",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project25\\A3 (#41)\\Rank Correlation (#24)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

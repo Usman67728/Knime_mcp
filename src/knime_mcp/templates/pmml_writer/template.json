@@ -1,0 +1,14 @@
+{
+  "id": "pmml_writer",
+  "node_name": "PMML Writer",
+  "factory": "org.knime.base.node.io.filehandling.pmml.writer.PMMLWriterNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Credit Scoring\\Building a Credit Scoring Model\\PMML Writer (#61)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

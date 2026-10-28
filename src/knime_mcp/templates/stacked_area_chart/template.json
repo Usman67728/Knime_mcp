@@ -1,0 +1,14 @@
+{
+  "id": "stacked_area_chart",
+  "node_name": "Stacked Area Chart",
+  "factory": "org.knime.base.views.node.stackedareachart.StackedAreaChartNodeFactory",
+  "bundle": "org.knime.base.views",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Visual Analysis of Sales Data\\Stacked Area Chart (#8)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "concatenate",
+  "node_name": "Concatenate",
+  "factory": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Data Blending\\Concatenate (#143)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

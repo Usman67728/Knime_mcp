@@ -1,0 +1,14 @@
+{
+  "id": "duplicate_row_filter",
+  "node_name": "Duplicate Row Filter",
+  "factory": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Visual Analysis of Sales Data\\Duplicate Row Filter (#9)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "numeric_outliers",
+  "node_name": "Numeric Outliers",
+  "factory": "org.knime.base.node.stats.outlier.handler.NumericOutliersNodeFactory",
+  "bundle": "org.knime.stats",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\Numeric Outliers (#6)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

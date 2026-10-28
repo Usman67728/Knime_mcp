@@ -1,0 +1,14 @@
+{
+  "id": "strings_to_document",
+  "node_name": "Strings to Document",
+  "factory": "org.knime.ext.textprocessing.nodes.transformation.stringstodocument.StringsToDocumentNodeFactory2",
+  "bundle": "org.knime.ext.textprocessing",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Social Media\\Topic Detection Based on Movie Reviews\\Document Cre (#287)\\Strings To Document (#34)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

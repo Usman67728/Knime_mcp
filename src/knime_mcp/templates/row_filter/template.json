@@ -1,0 +1,57 @@
+{
+  "id": "row_filter",
+  "node_name": "Row Filter",
+  "factory": "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "Keep rows matching a condition on one column.",
+  "inputs": [
+    "table"
+  ],
+  "outputs": [
+    "table"
+  ],
+  "source": "Hamdan_Final\\Row Filter (#25)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": [
+    {
+      "name": "column",
+      "path": "model.predicates.0.columnV2.regularChoice",
+      "type": "string",
+      "required": true,
+      "description": "Column to test."
+    },
+    {
+      "name": "operator",
+      "path": "model.predicates.0.operator",
+      "type": "string",
+      "required": false,
+      "default": "EQ",
+      "description": "EQ NEQ GT GE LT LE CONTAINS STARTS_WITH ENDS_WITH ..."
+    },
+    {
+      "name": "value",
+      "path": "model.predicates.0.filterValueParameters.value",
+      "type": "string",
+      "required": false,
+      "description": "Value to compare against."
+    },
+    {
+      "name": "output_mode",
+      "path": "model.outputMode",
+      "type": "string",
+      "required": false,
+      "default": "MATCHING",
+      "description": "MATCHING keeps matching rows, NON_MATCHING inverts."
+    },
+    {
+      "name": "match_criteria",
+      "path": "model.matchCriteria",
+      "type": "string",
+      "required": false,
+      "default": "AND",
+      "description": "AND | OR when several predicates exist."
+    }
+  ]
+}

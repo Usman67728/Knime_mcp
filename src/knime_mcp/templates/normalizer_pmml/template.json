@@ -1,0 +1,14 @@
+{
+  "id": "normalizer_pmml",
+  "node_name": "Normalizer (PMML)",
+  "factory": "org.knime.base.node.preproc.pmml.normalize.NormalizerPMMLNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Customer Segmentation\\Basic Customer Segmentation Use Case\\Normalizer _PMML_ (#139)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "random_forest_predictor",
+  "node_name": "Random Forest Predictor",
+  "factory": "org.knime.base.node.mine.treeensemble2.node.randomforest.predictor.classification.RandomForestClassificationPredictorNodeFactory2",
+  "bundle": "org.knime.base",
+  "description": "Random Forest Predictor (harvested from ida_a3_14638744)",
+  "inputs": [
+    "model",
+    "table"
+  ],
+  "outputs": [
+    "table"
+  ],
+  "source": "ida_a3_14638744\\Random Forest Predictor (#34)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

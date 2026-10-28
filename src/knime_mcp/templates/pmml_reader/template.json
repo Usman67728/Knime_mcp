@@ -1,0 +1,14 @@
+{
+  "id": "pmml_reader",
+  "node_name": "PMML Reader",
+  "factory": "org.knime.base.node.io.filehandling.pmml.reader.PMMLReaderNodeFactory3",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Customer Intelligence\\Churn Prediction\\Deploying a Churn Prediction Model\\PMML Reader (#110)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

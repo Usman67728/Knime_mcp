@@ -1,0 +1,14 @@
+{
+  "id": "row_to_column_names",
+  "node_name": "Row to Column Names",
+  "factory": "org.knime.base.node.preproc.rowtocolumnheader.RowToColumnHeaderNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\Non-standard format Spreadsheets\\Row to Column Header (#8)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

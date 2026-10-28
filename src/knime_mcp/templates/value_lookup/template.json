@@ -1,0 +1,14 @@
+{
+  "id": "value_lookup",
+  "node_name": "Value Lookup",
+  "factory": "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory",
+  "bundle": "org.knime.base",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "Example Workflows\\Basic Examples\\CountIf and SumIf\\Value Lookup (#26)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}

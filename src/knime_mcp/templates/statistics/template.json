@@ -1,0 +1,14 @@
+{
+  "id": "statistics",
+  "node_name": "Statistics",
+  "factory": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory",
+  "bundle": "org.knime.stats",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "source": "KNIME_project\\Statistics (#52)\\settings.xml",
+  "path_params": [],
+  "post_set": [],
+  "clear": [],
+  "params": []
+}
